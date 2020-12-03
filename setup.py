@@ -6,8 +6,8 @@ PLUGIN_ENTRY_POINT = 'voicerss_tts_plug = ' \
 setup(
     name='jarbas-tts-plugin-voicerss',
     version='0.1',
-    description='A catalan tts plugin for mycroft',
-    url='https://github.com/OpenJarbas/mycroft-tts-plugin-voicerss',
+    description='A voiceRSS tts plugin for mycroft',
+    url='https://github.com/JarbasLingua/jarbas-tts-plugin-voicerss',
     author='JarbasAi',
     author_email='jarbasai@mailfence.com',
     license='Apache-2.0',
