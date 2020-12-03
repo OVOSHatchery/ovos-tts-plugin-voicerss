@@ -27,8 +27,11 @@ Get a [api key](http://www.voicerss.org/api/) and modify your [mycroft.conf](htt
 ```
 
 `key` - the api key
+
 `lang` - optional, by default will use global language configured for mycroft
+
 `speed` - optional, The speech rate. from -10 (slowest speed) up to 10 (fastest speed). Default value: 0 (normal speed).
+
 `voice` - optional, depends on a language. See voice list [here](http://www.voicerss.org/api/)
 
 ### Supported Languages
