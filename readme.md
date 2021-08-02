@@ -1,14 +1,10 @@
 ## Description
 Mycroft TTS plugin for [VoiceRSS](http://www.voicerss.org)
 
-The "plugins" are pip install-able modules that provide new engines for mycroft
-
-more info in the [docs](https://mycroft-ai.gitbook.io/docs/mycroft-technologies/mycroft-core/plugins)
 
 ## Install
 
-
-`mycroft-pip install jarbas-tts-plugin-voicerss`
+`pip install ovos-tts-plugin-voicerss`
 
 ## Configuration
 
@@ -16,8 +12,8 @@ Get a [api key](http://www.voicerss.org/api/) and modify your [mycroft.conf](htt
 
 ```json
   "tts": {
-    "module": "voicerss_tts_plug",
-    "voicerss_tts_plug": {
+    "module": "ovos-tts-plugin-voicerss",
+    "ovos-tts-plugin-voicerss": {
       "key": "YOUR_API_KEY",
       "voice": "John",
       "lang": "en-us",
