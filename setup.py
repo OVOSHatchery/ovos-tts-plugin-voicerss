@@ -5,14 +5,14 @@ PLUGIN_ENTRY_POINT = 'ovos-tts-plugin-voicerss = ' \
                      'ovos_tts_plugin_voicerss:VoiceRSSTTSPlugin'
 setup(
     name='ovos-tts-plugin-voicerss',
-    version='0.1',
+    version='0.1.1',
     description='A voiceRSS tts plugin for mycroft',
     url='https://github.com/OpenVoiceOS/ovos-tts-plugin-voicerss',
     author='JarbasAi',
     author_email='jarbasai@mailfence.com',
     license='Apache-2.0',
     packages=['ovos_tts_plugin_voicerss'],
-    install_requires=["ovos-plugin-manager>=0.0.1a7", "requests"],
+    install_requires=["ovos-plugin-manager>=0.0.1a12", "requests"],
     zip_safe=True,
     classifiers=[
         'Development Status :: 3 - Alpha',
