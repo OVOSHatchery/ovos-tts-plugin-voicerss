@@ -47,8 +47,8 @@ class VoiceRSSTTSPlugin(TTS):
         super(VoiceRSSTTSPlugin, self).__init__(
             lang, config, VoiceRSSTTSValidator(self), 'mp3')
         self.key = self.config.get("key")
-        self.voice = self.voice.get("voice")
-        self.rate = self.voice.get("speed", 0)
+        self.voice = self.config.get("voice")
+        self.rate = self.config.get("speed", 0)
 
     def get_tts(self, sentence, wav_file):
         with open(wav_file, "wb") as f:
